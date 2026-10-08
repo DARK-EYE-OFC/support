@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - SPACE-MD</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI',sans-serif}
+body{background:#0a0a0f;color:#fff;line-height:1.7;padding:20px}
+.container{max-width:800px;margin:auto;background:#15151f;border-radius:16px;padding:30px;border:1px solid #222}
+h1{color:#00aaff;text-align:center;font-size:28px;margin-bottom:10px}
+h2{color:#00aaff;margin:25px 0 10px;font-size:20px;border-left:4px solid #00aaff;padding-left:10px}
+p,li{color:#ccc;font-size:15px}
+ul{padding-left:20px;margin:10px 0}
+a{color:#00aaff;text-decoration:none}
+.header{text-align:center;margin-bottom:30px;border-bottom:1px solid #222;padding-bottom:20px}
+.badge{background:#00aaff;color:#000;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:bold}
+.footer{text-align:center;margin-top:30px;padding-top:20px;border-top:1px solid #222;color:#666;font-size:13px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>🔵 SPACE-MD</h1>
+<h1>Privacy Policy</h1>
+<p><span class="badge">DARK-EYE-OFC</span></p>
+<p style="margin-top:10px;color:#888">Last Updated: May 13, 2026 | Version 5.6.9</p>
+<p>support-black-eight.vercel.app</p>
+</div>
+
+<h2>1. Introduction</h2>
+<p>Welcome to SPACE-MD, a WhatsApp multi-device bot developed by DARK-EYE-OFC. This Privacy Policy explains how we handle your data. By using SPACE-MD, you agree to this policy.</p>
+
+<h2>2. Data We Collect</h2>
+<ul>
+<li><b>WhatsApp Data:</b> We do NOT store your WhatsApp messages, media, or chats on external servers. All message processing happens in real-time on your hosting server.</li>
+<li><b>Session Data:</b> Your WhatsApp session (creds.json) is stored locally on your VPS / Panel where you deployed the bot.</li>
+<li><b>Group Data:</b> Group IDs, participant IDs for features like welcome, goodbye, anti-link are stored in local JSON database (database/ folder).</li>
+<li><b>User Commands:</b> We log commands for debugging (.hd, .play, etc) but not message content.</li>
+</ul>
+
+<h2>3. What We DON'T Collect</h2>
+<ul>
+<li>❌ We don't collect your WhatsApp password</li>
+<li>❌ We don't read your private chats</li>
+<li>❌ We don't sell data to third parties</li>
+<li>❌ We don't upload your media to external servers (except when you use tools like .hd, .play which require external APIs)</li>
+<li>❌ We don't store credit cards, location, contacts</li>
+</ul>
+
+<h2>4. Third-Party APIs</h2>
+<p>Some features use external APIs:</p>
+<ul>
+<li><b>.play, .song, .video</b> - Uses YouTube API</li>
+<li><b>.hd, .enhance</b> - Uses image upscale APIs</li>
+<li><b>.ai, .gpt</b> - Uses OpenAI / AI APIs</li>
+<li><b>.sticker</b> - Processed locally</li>
+</ul>
+<p>We are not responsible for their privacy policies.</p>
+
+<h2>5. Data Storage</h2>
+<p>All data is stored locally in your deployment:</p>
+<ul>
+<li><code>database/</code> - Group settings</li>
+<li><code>session/</code> - WhatsApp login</li>
+<li>Data is automatically deleted when you delete the bot / session</li>
+</ul>
+
+<h2>6. Bot Permissions</h2>
+<p>SPACE-MD requires WhatsApp permissions to read messages to respond to commands. The bot only responds to commands starting with prefix ( . ) and does not auto-read all messages.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>SPACE-MD is not intended for children under 13. We do not knowingly collect data from children.</p>
+
+<h2>8. Security</h2>
+<p>We take security seriously:</p>
+<ul>
+<li>Session files are encrypted</li>
+<li>Owner-only commands (.terminal, .bash) are restricted to owner numbers</li>
+<li>We recommend hosting on your own VPS / private panel</li>
+</ul>
+
+<h2>9. Your Rights</h2>
+<ul>
+<li>You can delete your session anytime with .delsession or deleting creds.json</li>
+<li>You can disable features (.goodbye off, .welcome off)</li>
+<li>You can remove bot from group to stop data processing</li>
+</ul>
+
+<h2>10. Changes to Policy</h2>
+<p>We may update this policy. Updates will be posted on support-black-eight.vercel.app/privacy</p>
+
+<h2>11. Contact</h2>
+<p>For privacy questions:</p>
+<ul>
+<li>GitHub: DARK-EYE-OFC</li>
+<li>Website: <a href="https://support-black-eight.vercel.app">support-black-eight.vercel.app</a></li>
+<li>WhatsApp: Owner numbers in bot</li>
+</ul>
+
+<div class="footer">
+<p>© 2026 SPACE-MD | DARK-EYE-OFC | All Rights Reserved</p>
+<p>Bot Name: SPACE-MD V5.6.9 | Made in Zimbabwe 🇿🇼</p>
+<p><a href="/">Home</a> • <a href="/terms">Terms</a> • <a href="/privacy">Privacy</a></p>
+</div>
+</div>
+</body>
+</html>
