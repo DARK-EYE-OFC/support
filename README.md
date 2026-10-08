@@ -1,2 +1,0 @@
-# COLDPATH-MD
-WhatsApp Assistance 
